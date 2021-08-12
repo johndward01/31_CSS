@@ -1,0 +1,27 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    border: 2rem solid gray;
+    width: min(80vw, 80vh);
+    height: min(80vw, 80vh);
+}
+
+#item1{
+    border: 5px solid green;
+    grid-column-start: 4;
+    grid-row-start: 4;
+}
+
+#item2{
+    border: 5px solid red;
+}
+
+#item3{
+    border: 5px solid blue;
+}
+
+#item4{
+    border: 5px solid yellow;
+}
+
